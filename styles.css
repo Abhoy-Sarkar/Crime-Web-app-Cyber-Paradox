@@ -1,0 +1,108 @@
+body
+{
+    background:url("bg.jpg");
+    background-repeat:no-repeat;
+    background-size:100%;
+    /*background-position:center;*/
+}
+nav
+{
+    background-color:blue;
+}
+
+.logo
+{
+    width:75px;
+    opacity:100%;
+    border-radius: 50% 20%;
+    position:absolute;
+    margin-top:-50px;
+    margin-left: 5px;
+}
+.mcard
+{
+    max-width: 40%;
+    
+    /* Abh code*/
+    left: 100px;
+    top: 80px;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    backdrop-filter: blur(5rem);    
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);    
+    border-top-color: rgba(225, 225, 225, 0.5);
+    border-left-color: rgba(225, 225, 225, 0.5);
+    border-bottom-color: rgba(225, 225, 225, 0.1);
+    border-right-color: rgba(225, 225, 225, 0.1);
+    /* end abh code*/
+}
+.myr
+{
+    float:right;
+    min-height:48vh;
+    max-width:60vh;
+    position:absolute;
+    margin-right:-30px;
+}
+.myl
+{ 
+     float: left;
+     min-height:48vh;
+     position:relative;
+}
+.mnav
+{
+    
+    border-radius:0 0 10% 10%;
+    opacity:85%;
+    backdrop-filter: blur(10rem);    
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);    
+    border-top-color: rgba(225, 225, 225, 0.5);
+    border-left-color: rgba(225, 225, 225, 0.5);
+    border-bottom-color: rgba(225, 225, 225, 0.1);
+    border-right-color: rgba(225, 225, 225, 0.1);
+}
+.mfoot
+{
+    position:absolute;
+    top: 800px;
+    color:rgb(101, 135, 199);
+}
+.intex{
+    font-family:'Ubuntu';
+    color:#DFF6FF;
+}
+.headin
+{
+    font-family:'Libre Baskerville';
+    color: #0E185F;
+    font-size:30px;
+}
+.imag
+{
+    position:absolute;
+    right:10px;
+    border-radius:1px;
+    border-color: aqua;
+    margin-top:78px;
+    float:right;
+    min-width:60vh;
+    margin-right:60px;
+}
+iframe
+{
+    border-radius:5% 5% 5% 5%;
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5); 
+}
+.ntab
+{
+    color:aqua;
+}
+.ntab:hover{
+    color:#0E185F;
+}
+.fr
+{
+    color:gray;
+    text-decoration: none;
+}

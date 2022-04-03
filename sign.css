@@ -1,0 +1,206 @@
+html,
+body {
+  height: 100%;
+}
+
+
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+body
+{
+    background:url("bg.jpg");
+    background-repeat:no-repeat;
+    background-size:100%;
+    /*background-position:center;*/
+    backdrop-filter: blur(0.5rem);
+    
+}
+nav
+{
+    background-color:blue;
+}
+
+.logo
+{
+    width:75px;
+    opacity:100%;
+    border-radius: 50% 20%;
+    position:absolute;
+    margin-top:-50px;
+    margin-left: 5px;
+}
+.mcard
+{
+    max-width: 70%;
+    
+    /* Abh code*/
+    left: 70px;
+    top: 20px;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    backdrop-filter: blur(5rem);    
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);    
+    border-top-color: rgba(225, 225, 225, 0.5);
+    border-left-color: rgba(225, 225, 225, 0.5);
+    border-bottom-color: rgba(225, 225, 225, 0.1);
+    border-right-color: rgba(225, 225, 225, 0.1);
+    /* end abh code*/
+}
+.myr
+{
+    float:right;
+    min-height:48vh;
+    max-width:60vh;
+    position:absolute;
+    margin-right:-30px;
+}
+.myl
+{ 
+     float: left;
+     min-height:80vh;
+     min-width: 50%;
+     position:relative;
+}
+.mnav
+{
+    margin-right:15px;
+    padding-right:15px;
+    border-radius:0 0 10% 10%;
+    opacity:85%;
+    backdrop-filter: blur(10rem);    
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);    
+    border-top-color: rgba(225, 225, 225, 0.5);
+    border-left-color: rgba(225, 225, 225, 0.5);
+    border-bottom-color: rgba(225, 225, 225, 0.1);
+    border-right-color: rgba(225, 225, 225, 0.1);
+}
+.mfoot
+{
+    position:absolute;
+    top: 700px;
+    color:rgb(101, 135, 199);
+    width:100%;
+    
+}
+.intex{
+    font-family:'Ubuntu';
+    color:#DFF6FF;
+}
+.headin
+{
+    font-family:'Libre Baskerville';
+    color: #0E185F;
+    font-size:30px;
+}
+.imag
+{
+    position:absolute;
+    right:10px;
+    border-radius:1px;
+    border-color: aqua;
+    margin-top:78px;
+    float:right;
+    min-width:60vh;
+    margin-right:60px;
+}
+iframe
+{
+    border-radius:5% 5% 5% 5%;
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5); 
+}
+.ntab
+{
+    color:aqua;
+}
+.ntab:hover{
+    color:#0E185F;
+}
+.fr
+{
+    color:gray;
+    text-decoration: none;
+}
+.blg
+{
+    border-radius: 50% 20%;
+    margin-right:30px;
+}
+.fleft
+{
+    float:left;
+    margin-left: 20px;
+    margin-top:20px;
+}
+.pad
+{
+    padding-left:10px;
+    padding-right:10px;
+    background-color: transparent;
+}
+.fsub
+{
+    margin-left:40px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+}
+.container
+{
+    color:#ccc;
+    text-shadow:0.2px 0.2px 0.2px 0.2px rgb(36, 36, 111);
+}
+.formh{
+    font-family:'Raleway';
+    padding-left:15px;
+    padding-top:2px;
+    color:#0E185F;
+}
+input[type="submit"] {
+    background-color: #c5d7da;
+    color: #000000;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 30%;
+    display:flex;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:5px;
+}

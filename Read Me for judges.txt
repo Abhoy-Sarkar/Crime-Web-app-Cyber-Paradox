@@ -1,0 +1,9 @@
+Hello from Team Cyber Paradox,
+
+We have made a Cyber Crime Web App which has mostly the frontend of the website(as the competition demanded), we used html, css, bootstrap, javascript, node js, express js, ejs to make this project.Here we let the user enter the area where he wants to see the crime record of also a advanced search of time from and radius of area within which the record is to be checked.Also we added a compose tab where the user can enter any crime he has witnessed.
+
+
+
+
+We could make it full stack if we could find some free crime api but there was none.So we kept the result page empty but we had the backend ready to accept data from the user in the homepage just the api was needed to put the data and access from the server.
+
